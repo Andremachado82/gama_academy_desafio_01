@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Maximus Tecnologia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="https://www.hyperxgaming.com/Themes/HyperX/images/logos/Hyperx-logo-lg.svg"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" >Loja</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Headset Gamer <span>HyperX</span><br></h2>
+                <p>O HyperX Cloud Stinger™ é o headset ideal para jogadores que procuram leveza e conforto, 
+                    qualidade de som superior e maior praticidade. Com apenas 275 gramas, ele é confortável 
+                    no seu pescoço e seus fones de ouvido giram em um ângulo de 90 graus para um melhor encaixe. 
+                    Suas unidades direcionais de 50 mm posicionam o som diretamente no ouvido para precisão do 
+                    áudio e qualidade de som de nível de jogos. Para máximo conforto em sessões de jogos prolongadas, 
+                    ele apresenta espuma memory foam de alta qualidade exclusiva HyperX.
+                </p>
+                <div class="formulario">
+                    <span href="#">Cadastre-se para receber novidades!</span>
+                    <form action="/action_page.php">
+                      <input type="text" id="fname" name="firstname" placeholder="Seu nome">
+                  
+                      <input type="text" id="lname" name="lastname" placeholder="Seu melhor e-mail">
+                  
+                      <input type="submit" value="Cadastrar">
+                    </form>
+                  </div>
+            </div>
+            <div class="imgBox">
+                <img src="images/img1.png" class="image1">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li class=""><img src="images/thumb1.png" onclick="imgSlider('images/img1.png'); changeCircleColor('#d04a58')"></li>
+            <li class=""><img src="images/thumb2.png" onclick="imgSlider('images/img2.png'); changeCircleColor('#3a9a0b')"></li>
+            <li class=""><img src="images/thumb3.png" onclick="imgSlider('images/img3.png'); changeCircleColor('#2c46a0')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
