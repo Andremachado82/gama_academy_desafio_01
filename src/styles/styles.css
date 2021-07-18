@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
 }
 
 section {
@@ -208,7 +209,7 @@ input[type=text], select {
     section {
         padding: 20px 20px 120px;
     }
-
+  
     .content {
         flex-direction: column;
         margin-top: 100px;
@@ -289,4 +290,12 @@ input[type=text], select {
         filter: invert(1);
     }
   }
+
+  @media (max-width: 1270px)
+  {
+    .content .textBox h2 span {
+        font-size: 0.8em;
+    }
+  }
+
 
